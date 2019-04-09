@@ -1,0 +1,143 @@
+/************** Home Page **************/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Navigation Bar */
+nav.navbar, a.nav-link {
+    /*R: 227 G: 221 B: 221*/
+    background-color: white;
+    color: black;
+}
+
+a.nav-link:hover {
+    font-style: italic;
+}
+
+a.nav-link:active, {
+    text-decoration: underline;
+}
+
+/* Mission Statement */
+#mission {
+    background-color: rgb(13, 5, 52);
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+/* Group Carousel */
+#group {
+    padding: 0px;
+}
+
+/* Images in Group Carousel */
+div.carousel-inner img.d-block.w-100 {
+    max-height: 700px;
+}
+
+
+/** Stay Up To Date **/
+#update {
+    background-color: white;
+    padding-bottom: 100px; 
+}
+
+/* Images in Stay Up To Date */
+div#update img {
+    max-height: 600px;
+}
+
+div#meeting img {
+    width: 100%;
+}
+
+/* Footer */
+#bottom {
+    background-color: rgb(119, 1,0);
+    color: white;
+    padding: 50px;
+}
+
+#bottom a {
+    color: white;
+}
+
+
+
+/**** Members Page ****/
+button.collapsible {
+    background-color: rgb(13, 5, 52);;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(30, 12, 122);;
+  }
+  
+  div.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+
+  div#member {
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+
+
+  /****** Docs Page *********/
+
+  
+
+  img#budgetslide {
+      max-height: 600px;
+  }
+
+  a.btn {
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+a.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+a.minutes {
+    color: black;
+    text-decoration: underline;
+}
+
+a.minutes:hover {
+    font-style: italic;
+}
+
+div#meetingmin {
+    padding-bottom: 100px;
+}
+
+/************** Events Page ***********/
+
+#events { 
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe#calendar {
+        width: 350px;
+        height: 500px;
+    }
+  }
